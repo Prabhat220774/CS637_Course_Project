@@ -1,0 +1,10 @@
+# This file lists the Python libraries needed for this project.
+# Install them using: pip install -r requirements.txt
+
+pandas
+numpy
+scikit-learn  # For mutual_info_score and KMeans (for HTF params)
+scipy         # For optimize.minimize (for Alg 3) and stats.gmean
+networkx      # For graph operations in Algorithm 1
+tqdm          # For progress bars (ESSENTIAL for a 1.1GB file)
+joblib        # For parallelizing the MI matrix calculation
